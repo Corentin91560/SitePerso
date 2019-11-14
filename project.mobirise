@@ -1,15 +1,15 @@
 {
   "settings": {
     "name": "portfolio",
-    "currentPage": "veille-technologique.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#f3c649",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
+        "infoColor": "#f3c649",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
@@ -25,17 +25,26 @@
       ]
     },
     "versionFirst": "4.2.4",
-    "uniqCompNum": 59,
-    "versionPublish": "4.2.4",
+    "uniqCompNum": 75,
+    "versionPublish": "4.11.5",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-128x162-1.png",
-    "noImageResize": ""
+    "noImageResize": true,
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "": "on",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "applications-mobiles.html": {
       "settings": {
         "meta_descr": "Applications mobiles",
         "title": "Applications mobiles",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -106,7 +115,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ANDROID<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -156,7 +165,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f3c649!important"
             }
           },
           "logo": {
@@ -371,7 +380,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 DELAGE Corentin",
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
           "_tags": [
             "Theme"
           ],
@@ -384,7 +393,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "IT'S SAUQUET",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -402,7 +411,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ANDROID<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -452,7 +461,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f3c649!important"
             }
           },
           "logo": {
@@ -486,7 +495,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 DELAGE Corentin",
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
           "_tags": [
             "Theme"
           ],
@@ -632,7 +641,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Enquete RATP",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -650,7 +659,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ANDROID<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -700,7 +709,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f3c649!important"
             }
           },
           "logo": {
@@ -734,7 +743,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 DELAGE Corentin",
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
           "_tags": [
             "Theme"
           ],
@@ -847,7 +856,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Enquete Iris",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -865,7 +874,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ANDROID<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -915,7 +924,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f3c649!important"
             }
           },
           "logo": {
@@ -949,7 +958,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 DELAGE Corentin",
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
           "_tags": [
             "Theme"
           ],
@@ -996,7 +1005,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Veille techologique",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1014,7 +1023,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ANDROID<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1064,7 +1073,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f3c649!important"
             }
           },
           "logo": {
@@ -1086,33 +1095,6 @@
           "_anchor": "ext_menu-w"
         },
         {
-          "_inherit": "social-buttons2",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "text": "",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-1i"
-        },
-        {
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -1125,7 +1107,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 DELAGE Corentin",
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
           "_tags": [
             "Theme"
           ],
@@ -1412,7 +1394,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ANDROID<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1462,7 +1444,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f3c649!important"
             }
           },
           "logo": {
@@ -1508,7 +1490,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -1527,7 +1509,7 @@
             }
           },
           "title": "Corentin DELAGE",
-          "text": "",
+          "text": "Developpeur d'application mobile et Developpeur Web",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
@@ -1583,7 +1565,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>Actuellement étudiant en seconde année BTS SIO (Services Informatiques aux Organisations) en spécialité SLAM (Solutions Logicielles et Applications Métiers) à l'école IRIS localisée à Paris (75017).\n</p><p>\n</p><p>Mon apprentissage m'aura permis d'acquérir mes compétences en: PHP, MySQL, HTML/CSS, Java, Android et en C\n</p><p>\n</p><p>Intéressé par les applications mobiles et les nouvelles technologies de la programmation embarquée, je suis à la recherche de toutes opportunités me permettant d'approfondir mes connaissances dans ce domaine, car, actuellement, mes compétences sont en majeure partie portées sur le développement web et d'application java.</p>",
+          "text": "<p>Actuellement étudiant en dernière année de licence en mobilité et objets connectés à l'ESGI, localisé à Paris Nation en alternance chez Vivendi en tant que développeur d'application mobile et développeur web.\r</p><p>\r</p><p>Ma formation actuelle est orientée dans le monde des applications mobiles principalement et aussi dans le monde des objets connectés\r</p><p>\r</p><p>Depuis le début de mon parcours dans les études post bac, j'ai pu me former sur les technologies web (HTML/CSS/PHP) ainsi que dans l'expertise des bases de données (Mysql/Postgre/MongoDB) mais aussi dans la mise en place de serveur sous nodejs et dans le développement JAVA (orienté application pour Pc et Android), C et swift.\r</p><p>\r</p><p>Etant en alternance j'ai aussi acquis des méthodes de travail propre au monde de l'entreprise. Dans mon entreprise actuelle je travaille beaucoup avec les technologies web, mais aussi avec les technologies mobiles tel que Powerapps.</p>",
           "_tags": [
             "Theme"
           ],
@@ -1643,7 +1625,7 @@
             "showButtons": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "columns": "2",
+            "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1683,12 +1665,13 @@
           },
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "pencil",
+              "linkInNewWindow": false,
+              "name": "devices",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "size": 0
             }
           },
           "media4": {
@@ -1727,12 +1710,12 @@
           "title1": "BAC S-SI OPTION ISN",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Obtenue en 2016 au lycée Rosa Parks à Montgeron 91230",
-          "title2": "BTS SIO OPTION SLAM",
+          "title2": "BTS SIO OPTION DEVELOPPEMENT",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "En cours d'obtension a l'école IRIS Paris 17eme&nbsp;",
-          "title3": "Web Fonts",
+          "caption2": "Obtenue en 2018 à l'école IRIS Paris 17eme&nbsp;",
+          "title3": "LICENCE MOBILITE &amp; OBJETS CONNECTES",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "caption3": "En cours t'obtention à l'ESGI Paris Nation",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
@@ -1913,6 +1896,133 @@
           },
           "_params": {
             "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "L'alternance",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1n"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/tessi-300x168.jpeg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/vivendi-400x400.jpeg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Tessi Document Services",
+          "subtitle1": "Developpeur Java",
+          "caption1": "Developpement d'une plateform de validation de lettres cheques pour des clients externe ainsi qu'un produit interne de balance carré",
+          "title2": "Vivendi",
+          "subtitle2": "Developpeur d'application mobile et developpeur Web",
+          "caption2": "Maintenance de site web deja existant, apport de nouveauté sur ces sites, developpement d'application avec Powerapp(Microsoft) et d'applications mobiles Android et Ios.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"tessi.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Découvrir</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"vivendi.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Découvrir</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-1o"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
             "paddingTop": "2",
             "paddingBottom": 1,
             "bgColor": "#fff"
@@ -1951,7 +2061,7 @@
           },
           "media1": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "src": "@PROJECT_PATH@/assets/images/table.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1959,7 +2069,7 @@
           },
           "media2": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1967,7 +2077,7 @@
           },
           "media3": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -2226,7 +2336,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 DELAGE Corentin",
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
           "_tags": [
             "Theme"
           ],
@@ -2239,7 +2349,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Neige Soleil",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -2257,7 +2367,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ANDROID<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -2307,7 +2417,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f3c649!important"
             }
           },
           "logo": {
@@ -2341,7 +2451,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 DELAGE Corentin",
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
           "_tags": [
             "Theme"
           ],
@@ -2414,6 +2524,478 @@
           "allItem": "All",
           "_name": "gallery3",
           "_anchor": "gallery3-17"
+        }
+      ]
+    },
+    "vivendi.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Vivendi",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Portfolio</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1s"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1275.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/vivendi-1-400x400.jpeg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Vivendi",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-22"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Title with Solid Background Color",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-20"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-21"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "responsive",
+              "family": "MobiriseIcons",
+              "active": true
+            }
+          },
+          "text1": "<strong>Adresse</strong><br>\n2 Rue Daniel Mayer<br>\n91560 Crosne",
+          "text2": "<strong>Contacts</strong><br>\nEmail: Corentin.delage@hotmail.fr<br>\nPhone: 06 67 44 00 87<br>",
+          "text3": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1t"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1u"
+        }
+      ]
+    },
+    "tessi.html": {
+      "settings": {
+        "meta_descr": "Website Generator Description",
+        "title": "Tessi",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MOBILE<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"iris.html\">IRIS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ratp.html\" aria-expanded=\"false\">RATP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"itssauquet.html\" aria-expanded=\"false\">IT'S SAUQUET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Neige-Soleil.html\" aria-expanded=\"false\">Neige et Soleil<br></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"applications-mobiles.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">WEB<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"applications-mobiles.html\" aria-expanded=\"false\">NEIGE &amp; SOLEIL<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"veille-technologique.html\" aria-expanded=\"false\">VEILLE TECHNOLOGIQUE<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Portfolio</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1p"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": "50",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/tessi-300x168.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Tessi Document Services",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-1v"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Title with Solid Background Color",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1z"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1y"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "responsive",
+              "family": "MobiriseIcons",
+              "active": true
+            }
+          },
+          "text1": "<strong>Adresse</strong><br>\n2 Rue Daniel Mayer<br>\n91560 Crosne",
+          "text2": "<strong>Contacts</strong><br>\nEmail: Corentin.delage@hotmail.fr<br>\nPhone: 06 67 44 00 87<br>",
+          "text3": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1q"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2019 <br>DELAGE Corentin",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1r"
         }
       ]
     }
